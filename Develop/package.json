@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "to do use node to create readme file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Tangnay Ou",
   "license": "ISC",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tangnay/professional-readme-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tangnay/professional-readme-nodejs/issues"
+  },
+  "homepage": "https://github.com/Tangnay/professional-readme-nodejs#readme"
 }

@@ -1,22 +1,8 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.project_title}
+# Readme
 
   ## Description
   
-  ${data.description}
+  I want to do this and that
   
   - What was your motivation?
   - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -27,10 +13,10 @@ function generateMarkdown(data) {
   
   If your README is long, add a table of contents to make it easy for users to find what they need.
   
-  - [Installation](${data.installation_instructions})
-  - [Usage](${data.usage_information})
+  - [Installation](run the npm)
+  - [Usage](to user)
   - [Credits](#credits)
-  - [License](${data.license})
+  - [License](MIT)
   
   ## Installation
   
@@ -40,11 +26,11 @@ function generateMarkdown(data) {
   
   Provide instructions and examples for use. Include screenshots as needed.
   
-  To add a screenshot, create an \`assets/images\` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+  To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
   
-      \`\`\`md
+      ```md
       ![alt text](assets/images/screenshot.png)
-      \`\`\`
+      ```
   
   ## Credits
   
@@ -56,7 +42,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  ${data.license}
+  MIT
   
   ## Badges
   
@@ -70,11 +56,8 @@ function generateMarkdown(data) {
   
   ## How to Contribute
   
-  ${data.contribution_guidelines}
+  real
   
   ## Tests
   
-  ${data.test_instructions}`;
-}
-
-module.exports = generateMarkdown;
+  test
