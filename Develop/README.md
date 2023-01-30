@@ -2,7 +2,7 @@
 
   ## Description
   
-  I want to do this and that
+  Create a Readme file
   
   - What was your motivation?
   - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -13,8 +13,8 @@
   
   If your README is long, add a table of contents to make it easy for users to find what they need.
   
-  - [Installation](run the npm)
-  - [Usage](to user)
+  - [Installation](N/A)
+  - [Usage](N/A)
   - [Credits](#credits)
   - [License](MIT)
   
@@ -56,8 +56,10 @@
   
   ## How to Contribute
   
-  real
+  N/A
   
   ## Tests
   
-  test
+  N/A
+
+  
